@@ -1,0 +1,19 @@
+{
+  "name": "maison-blush-backend",
+  "private": true,
+  "type": "module",
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "create-admin": "node scripts/create-admin.js",
+    "migrate-json": "node scripts/migrate-json.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  },
+  "engines": { "node": ">=18" }
+}

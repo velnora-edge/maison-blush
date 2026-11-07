@@ -1,4 +1,5 @@
-node_modules
-dist
 .env
-backend/data/*.json
+.env.*
+!.env.example
+node_modules/
+dist/
